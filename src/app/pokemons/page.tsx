@@ -29,8 +29,6 @@ function PokemonList() {
     fetchPokemons();
   }, []);
 
-  console.log(pokemons)
-
   return (
     <div className={styles.grid}>
       {pokemons.map((pokemon, index) => (
