@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .item {
+    border-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageWrapper {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .image {
+    object-fit: contain;
+  }
