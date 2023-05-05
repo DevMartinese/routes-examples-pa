@@ -33,7 +33,7 @@ function PokemonList() {
     <div className={styles.grid}>
       {pokemons.map((pokemon, index) => (
         <div key={index} className={styles.item}>
-          <Link href='pokemons/[id]' as={`/pokemons/${pokemon.id}`}>
+          <Link href={`/pokemons/${pokemon.id}`}>
             <div className={styles.imageWrapper}>
               <img src={pokemon.sprites.front_default} alt={pokemon.name} className={styles.image} />
             </div>
